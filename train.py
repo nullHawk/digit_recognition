@@ -12,8 +12,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 input_size = 784 # 28*28
 hidden_size = 100
 num_classes = 10
-num_epochs = 2
-batch_size = 100
+num_epochs = 20
+batch_size = 500
 learning_rate = 0.001
 
 # MNIST
@@ -77,3 +77,4 @@ with torch.no_grad():
 
     acc = 100.0 * n_correct / n_samples
     print(f'accuracy = {acc}')
+torch.save(model.state_dict(), 'model/model.pt')
