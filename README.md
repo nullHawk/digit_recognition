@@ -24,7 +24,6 @@ Ensure you have the following dependencies installed:
 You can install the required packages using `requirements.txt`:
 
 ```bash
-bashCopy code
 pip install -r requirements.txt
 
 ```
@@ -34,23 +33,20 @@ pip install -r requirements.txt
 1. **Clone the Repository:**
     
     ```bash
-    bashCopy code
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/nullHawk/digit_recognition_ffnn.git
     
     ```
     
 2. **Navigate to the Project Directory:**
     
     ```bash
-    bashCopy code
-    cd repository
+    cd digit_recognition_ffnn
     
     ```
     
 3. **Install Dependencies:**
     
     ```bash
-    bashCopy code
     pip install -r requirements.txt
     
     ```
@@ -65,7 +61,6 @@ pip install -r requirements.txt
 2. **Run the Web Interface:**
     
     ```bash
-    bashCopy code
     python app.py
     
     ```
